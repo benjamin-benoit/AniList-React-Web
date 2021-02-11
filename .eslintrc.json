@@ -30,14 +30,12 @@
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "react/state-in-constructor": "off",
         "import/extensions": [
-            "error",
-            "ignorePackages",
-            {
-                "js": "never",
-                "jsx": "never",
-                "ts": "never",
-                "tsx": "never"
-            }
+        "error",
+        "ignorePackages",
+        {
+            "ts": "never",
+            "tsx": "never"
+        }
         ]
     },
     "settings": {
